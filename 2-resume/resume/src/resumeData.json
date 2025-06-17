@@ -1,0 +1,57 @@
+{
+  "header": {
+    "profilePic": "sandyy.png",
+    "name": "Santhiya",
+    "subname": "Thiyagarajan",
+    "jobTitle": "FULL STACK DEVELOPER"
+  },
+  "contact": {
+    "email": "santhiyathiyagu99@gmail.com",
+    "phone": "+91 6380555574",
+    "location": "Namakkal, India",
+    "linkedin": " linkedin.santhiya thiyagu"
+  },
+  "profileSummary": "Full Stack developer looking to obtain a challenging position in an organisation, utilising my proven track record in driving revenue growth and forging strategic partnerships to achieve business objectives.",
+  "languages": [
+    "Tamil",
+    "English"
+  ],
+  "education": [
+    {
+      "degree": "BACHELOR OF COMPUTER TECHNOLOGY",
+      "school": "Vellalar College for Women",
+      "location": "Thindal, Erode",
+      "years": "2016-2019",
+      "percentage": "74%"
+    },
+    {
+      "degree": "MASTER OF COMPUTER SCIENCE",
+      "school": "Vellalar College for Women",
+      "location": "Thindal, Erode",
+      "years": "2019-2021",
+      "percentage": "85%"
+    },
+    {
+      "degree": "BACHELOR OF EDUCATION",
+      "school": "K.S.Maniam College Of Education",
+      "location": "Irukkur, Namakkal",
+      "years": "2021-2023",
+      "percentage": "80%"
+    }
+  ],
+  "professionalExperience": {
+    "company": "GROWMINDZ TECHNOLOGY",
+    "position": "Full Stack Developer (Intern)",
+    "location": "Namakkal",
+    "responsibilities": [
+      "Built and deployed a scratch directory with React, Bootstrap, Node.js, and MySQL to search for school/club listings.",
+      "Architected and maintained 5 performant and scalable data processing backend systems.",
+      "Analyzed and optimized performance bottlenecks in backend systems to increase responsiveness."
+    ]
+  },
+  "skills": {
+    "frontend": ["HTML", "CSS", "JavaScript", "React"],
+    "backend": ["Node.js"],
+    "database": ["MySQL"]
+  }
+}

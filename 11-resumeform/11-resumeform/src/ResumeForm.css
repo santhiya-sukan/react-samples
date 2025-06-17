@@ -1,0 +1,62 @@
+.form-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+button.submit-button,
+.edit-button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.viewer {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.viewer div {
+  margin-bottom: 10px;
+  font-size: 16px;
+}

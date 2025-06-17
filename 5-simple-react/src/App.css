@@ -1,0 +1,38 @@
+/* Make the entire page a flex container */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container box styling */
+.app-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+.name-input {
+  width: 80%;
+  padding: 12px;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+/* Greeting text styling */
+.greeting {
+  margin-top: 25px;
+  font-size: 2rem;
+  
+}

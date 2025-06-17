@@ -1,0 +1,24 @@
+.form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f8f8f8;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.input-group input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}

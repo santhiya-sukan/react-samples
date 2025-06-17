@@ -1,0 +1,126 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-left:800px;
+  min-height: 100vh;
+  display: flex;
+  font-size:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #88aabb;
+  border-radius: 8px;
+  background-color: #c46fb3;
+  transition: background 0.3s ease-in-out;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-button {
+  width: 40px;
+  font-size: 24px;
+  background-color: #88aabb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+}
+
+.edit-button,
+.delete-button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #444;
+}
+
+.delete-button:hover {
+  color: red;
+}
+.message {
+  margin-top: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}

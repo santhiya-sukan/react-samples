@@ -1,0 +1,15 @@
+.list-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.resume-card {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  text-align: left;
+}

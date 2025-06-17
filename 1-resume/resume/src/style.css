@@ -1,0 +1,91 @@
+.resume
+{
+        width: 1200px; 
+        height: 1500px; 
+        background: white;
+        margin-left:30%;      
+        margin-top:0;
+        padding-top:0px;
+        font-family:'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+            align-items: center;
+            padding: 0px;
+            height: 350px;
+}
+.jobtitle{
+    color:white;
+    background-color:rgb(31, 151, 153);
+    width:585px;
+    height: 70px;
+    font-size:35px;
+    padding-top:30px;
+    padding-left: 610px;
+    margin-top: 50px;
+}
+.header img{
+    border-radius: 50%;
+    margin-left:150px;
+    margin-top:20px;
+    width:250px;
+    height:300px;
+    float:left;
+}
+
+.content
+{
+    display:flex;
+    border:20px soild black;
+    margin-top:0;
+}
+.left-column{
+width:800px;
+height:1230px;
+padding-top:20px;
+padding-left:40px;
+padding-right: 40px;;
+margin-top:40px;
+font-size:26px;
+background-color:aliceblue;
+line-height:1.3;
+}
+
+.right-column{
+width:800px;
+margin-left: 0px;
+margin-top: 40px;
+font-size:23px;
+height:1230px;
+padding-right:40px ;
+padding-top:30px;
+padding-left: 40px;
+line-height:1.5;
+}
+
+.section h4{
+    color:rgb(7, 177, 137);
+    border-bottom: 2px solid rgb(7, 177, 137);
+
+}
+
+.color{
+    color: #210f0f;
+    font-size: 20px;
+}
+.text{
+    padding-left:600px;
+}
+.name{
+    font-size:50px;
+    height:15px;
+    padding-top:30px;
+}
+
+.subname{
+    font-size:70px;
+    font-weight:bolder;
+}
+.section1{
+    height:300px;
+}

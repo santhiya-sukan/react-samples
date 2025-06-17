@@ -1,0 +1,72 @@
+html {
+  font-size: 30px; /* Reasonably larger base font size (default is 16px) */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.app-container {
+  margin-top: 60px;
+  background: white;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  width: 95%;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem; /* 60px if base is 24px */
+  color: #333;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  padding: 1rem;
+  font-size: 1.5rem; /* 36px */
+  width: 70%;
+  margin-right: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+button {
+  padding: 0.8rem 1.2rem;     /* Slightly smaller padding */
+  font-size: 1.2rem;          /* Smaller than before (28.8px if 24px base) */
+  margin-top: 0.5rem;
+  margin-left:50px;         /* Push it down from the input */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem; /* 36px */
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.todo-item input[type="checkbox"] {
+  transform: scale(2.2); /* Bigger checkbox */
+  margin-right: 20px;
+}

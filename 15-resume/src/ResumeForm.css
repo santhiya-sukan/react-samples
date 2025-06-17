@@ -1,0 +1,70 @@
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.form-container {
+  background: #fefefe;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.resume-list .resume {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.section h4 {
+  margin-bottom: 5px;
+}
+
+.section p {
+  margin: 2px 0;
+}
