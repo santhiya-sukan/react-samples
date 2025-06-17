@@ -21,7 +21,7 @@ export default function TodoList() {
 
     const { type } = lastAction;
 
-    if (type === 'add') showMessage('✅ Task added!');
+    if (type === 'add') showMessage('✅ Task successsfully added!');
     else if (type === 'edit') showMessage('✏️ Task updated!');
     else if (type === 'delete') showMessage('🗑️ Task deleted!');
     else if (type === 'clearChecked') showMessage('✔️ Completed tasks removed!');
