@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Redmi Note 12",
+    "price": 13999,
+    "image": "pro-1-ant-design/download.jpeg",
+    "description": "Powerful mid-range phone."
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy M14",
+    "price": 14999,
+    "image": "https://via.placeholder.com/150",
+    "description": "Smooth performance and strong battery life."
+  }
+]

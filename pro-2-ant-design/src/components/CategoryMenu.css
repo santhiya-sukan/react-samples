@@ -1,0 +1,25 @@
+.category-menu {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  position: sticky;
+  top: 64px; /* below header if you have a sticky header */
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: #333;
+}
+
+.category-item:hover {
+  color: #1890ff;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Realme Narzo 60X",
+    "price": "₹11,999",
+    "image": "/images/product1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "boAt Airdopes 141",
+    "price": "₹1,299",
+    "image": "/images/product2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy M13",
+    "price": "₹9,999",
+    "image": "/images/product3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Apple Watch SE",
+    "price": "₹29,900",
+    "image": "/images/product4.jpg"
+  }
+]
