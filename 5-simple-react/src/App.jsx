@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Hello World!</h1>
+      <h1>Hello super World!</h1>
       <input
         type="text"
         placeholder="Enter your name"
